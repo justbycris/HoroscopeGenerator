@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <title>Find Your Asthrology Sign</title>
+
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+    <section id="top">
+        <img src="https://img.icons8.com/nolan/64/star.png" alt="purple star logo" />
+    </section>
+    <h1>Horoscope Generator</h1>
+    <br>
+    <hr>
+
+    <form action="index.html" method="GET" class="form">
+        <label for="user">Name:</label>
+        <input type="text" name="user" id="user" required style="width: 150px;" placeholder="First Name">
+        <br>
+        <label for="day">Day of Birth:</label>
+        <input id="day" name="day" type="text" style="width: 105px;" required>
+        <br>
+        <label for="month">Month of Birth:</label>
+        <select id="month" name="month" required> 
+        <br>
+        <option value="january" id="month">January</option>
+        <option value="february" id="month">February</option>
+        <option value="march" id="month">March</option> 
+        <option value="april" id="month">April</option> 
+        <option value="may" id="month">May</option> 
+        <option value="june" id="month">June</option> 
+        <option value="july" id="month">July</option> 
+        <option value="august" id="month">August</option> 
+        <option value="september" id="month">September</option> 
+        <option value="october" id="month">October</option> 
+        <option value="november" id="month">November</option> 
+        <option value="december" id="month">December</option> 
+      </select> <br>
+        <input type="submit" value="Find My Sign!" class="btn" onclick="zodiac();">
+    </form>
+
+
+
+</body>
+
+</html>
