@@ -48,6 +48,7 @@ h1 {
     border-radius: 2%;
     margin-top: 2rem;
     text-align: center;
+    outline: none;
 }
 
 #characteristic {
@@ -64,4 +65,16 @@ p {
     top: 18rem;
     font-size: 1.3rem;
     text-align: center;
+}
+
+
+/*-----------------------------YOUR SIGN MESSAGE-------------------*/
+
+#yoursign {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    top: 300px;
 }
