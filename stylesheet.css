@@ -17,6 +17,7 @@ body {
 
 h1 {
     font-family: 'Monserrat', sans-serif;
+    font-size: calc(20px + 2vw);
     font-weight: 600;
     color: #F08CAE;
     text-align: center;
@@ -27,14 +28,13 @@ h1 {
 /*---------------------------FORM---------------------------------*/
 
 .form {
-    position: fixed;
-    top: 35%;
-    left: 50%;
-    transform: translate(-65%, -50%);
-    text-align: left;
+    position: relative;
+    top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
     color: #f1f1f1;
     line-height: 27px;
-    margin: 2rem 2rem;
 }
 
 .btn {
@@ -76,5 +76,5 @@ p {
     color: #ffffff;
     font-size: 2rem;
     text-align: center;
-    top: 300px;
+    top: 100px;
 }
