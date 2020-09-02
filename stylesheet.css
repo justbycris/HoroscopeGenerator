@@ -77,5 +77,6 @@ p {
     color: #ffffff;
     font-size: 2rem;
     text-align: center;
-    top: 100px;
+    top: 60px;
+    padding: 0 15px;
 }
