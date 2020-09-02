@@ -5,7 +5,7 @@ function zodiac() {
     var error = "Error. Please enter a valid date.";
 
 
-    if (day >= 32 || day === 0) {
+    if (day >= 32 || day === 0 || month === 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december') {
         return document.getElementById("yoursign").innerHTML = error;
 
     } else if (month === 'january' && day >= 20 || month === 'february' && day <= 18) {
