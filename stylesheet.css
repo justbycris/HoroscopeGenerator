@@ -44,7 +44,7 @@ h1 {
     font-weight: 600;
     padding: 1rem 1.5rem;
     background-color: #715AFF;
-    color: #FFFFFF;
+    color: #ffffff;
     border: 1px solid transparent;
     border-radius: 2%;
     margin-top: 2rem;
@@ -73,10 +73,23 @@ p {
 
 #yoursign {
     position: relative;
+    padding: 0 15px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 2rem;
     text-align: center;
     top: 60px;
-    padding: 0 15px;
+}
+
+#yoursign-description {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 15px 50px 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f3f3f3;
+    font-size: calc(10px + .8vw);
+    text-align: justify;
+    text-justify: inter-word;
+    top: 80px;
 }
